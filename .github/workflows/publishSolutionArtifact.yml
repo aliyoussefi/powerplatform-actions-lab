@@ -3,7 +3,7 @@ name: export-and-publish-solutionFile
 #  unpack it and prepare, commit and push a git branch with the changes
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   export-from-dev:
