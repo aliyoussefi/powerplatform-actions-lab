@@ -25,7 +25,7 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: ${{ ENVIRONMENT_URL}}
+        environment-url: 'https://alyousse.crm.dynamics.com/'
         user-name: ${{ USER_NAME}}
         password-secret: ${{ secrets.password }}
 
