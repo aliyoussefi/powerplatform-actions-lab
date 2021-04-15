@@ -4,7 +4,7 @@
   <EntityInfo>
     <entity Name="pfe_Insight">
       <LocalizedNames>
-        <LocalizedName  description="Insight" languagecode="1033" />
+        <LocalizedName description="Insight" languagecode="1033" />
       </LocalizedNames>
       <LocalizedCollectionNames>
         <LocalizedCollectionName description="Insights" languagecode="1033" />
