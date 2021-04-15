@@ -26,7 +26,7 @@ jobs:
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
         environment-url: 'https://alyousse.crm.dynamics.com/'
-        user-name: ${{ USER_NAME}}
+        user-name: 'alyousse@pfecrmonline.onmicrosoft.com'
         password-secret: ${{ secrets.password }}
 
     - name: export-solution action
