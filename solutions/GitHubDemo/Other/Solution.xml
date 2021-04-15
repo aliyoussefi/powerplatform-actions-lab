@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.22251" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21032.164" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>GitHubDemo</UniqueName>
     <LocalizedNames>
@@ -87,47 +87,51 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="2" type="66" schemaName="pfe_D365.Pfe.PCF.Samples.TSWebAPI" displayName="pfe_D365.Pfe.PCF.Samples.TSWebAPI" solution="Active" />
-        <Dependent key="3" type="60" displayName="Custom Controls" parentDisplayName="Insight" id="{63cabfe9-9e9a-ea11-a811-000d3a5466d8}" />
+        <Dependent key="3" type="60" displayName=" Slow Loading Form" parentDisplayName="Insight" id="{dcf62310-9f9a-ea11-a811-000d3a5466d8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
-        <Dependent key="3" type="60" displayName="Custom Controls" parentDisplayName="Insight" id="{63cabfe9-9e9a-ea11-a811-000d3a5466d8}" />
+        <Required key="4" type="61" schemaName="pfe_/scripts/applicationinsights/performanceScenarios.js" displayName="pfe_/scripts/applicationinsights/performanceScenarios.js" solution="Active" />
+        <Dependent key="3" type="60" displayName=" Slow Loading Form" parentDisplayName="Insight" id="{dcf62310-9f9a-ea11-a811-000d3a5466d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="3" type="60" displayName=" Slow Loading Form" parentDisplayName="Insight" id="{dcf62310-9f9a-ea11-a811-000d3a5466d8}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="2" type="66" schemaName="pfe_D365.Pfe.PCF.Samples.TSWebAPI" displayName="pfe_D365.Pfe.PCF.Samples.TSWebAPI" solution="Active" />
-        <Dependent key="5" type="60" displayName=" Slow Loading Form" parentDisplayName="Insight" id="{dcf62310-9f9a-ea11-a811-000d3a5466d8}" />
+        <Dependent key="6" type="60" displayName="Custom Controls" parentDisplayName="Insight" id="{63cabfe9-9e9a-ea11-a811-000d3a5466d8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
-        <Dependent key="5" type="60" displayName=" Slow Loading Form" parentDisplayName="Insight" id="{dcf62310-9f9a-ea11-a811-000d3a5466d8}" />
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="6" type="60" displayName="Custom Controls" parentDisplayName="Insight" id="{63cabfe9-9e9a-ea11-a811-000d3a5466d8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="61" schemaName="pfe_/scripts/applicationinsights/performanceScenarios.js" displayName="pfe_/scripts/applicationinsights/performanceScenarios.js" solution="Active" />
-        <Dependent key="5" type="60" displayName=" Slow Loading Form" parentDisplayName="Insight" id="{dcf62310-9f9a-ea11-a811-000d3a5466d8}" />
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="7" type="60" displayName="Unhandled Exception Form" parentDisplayName="Insight" id="{7fdccd2e-9f9a-ea11-a811-000d3a5466d8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
-        <Dependent key="7" type="60" displayName="Insights Form" parentDisplayName="Insight" id="{35205ca0-3f4a-ea11-a812-000d3a546343}" />
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="8" type="60" displayName="Column Form" parentDisplayName="Insight" id="{301edc0e-2993-eb11-b1ac-002248203246}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
-        <Dependent key="8" type="60" displayName="Unhandled Exception Form" parentDisplayName="Insight" id="{7fdccd2e-9f9a-ea11-a811-000d3a5466d8}" />
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="9" type="60" displayName="Insights Form" parentDisplayName="Insight" id="{35205ca0-3f4a-ea11-a812-000d3a546343}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
-        <Dependent key="9" type="60" displayName=" XHR Form" parentDisplayName="Insight" id="{75aa2252-9f9a-ea11-a811-000d3a8a7593}" />
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="10" type="60" displayName=" XHR Form" parentDisplayName="Insight" id="{75aa2252-9f9a-ea11-a811-000d3a8a7593}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="61" schemaName="ayw_/icons/appinsights32" displayName="ayw_/icons/appinsights32" solution="Active" />
-        <Dependent key="11" type="50" schemaName="pfe_insight:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+        <Required key="11" type="61" schemaName="ayw_/icons/appinsights32" displayName="ayw_/icons/appinsights32" solution="Active" />
+        <Dependent key="12" type="50" schemaName="pfe_insight:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="61" schemaName="ayw_/icons/appinsights16" displayName="ayw_/icons/appinsights16" solution="Active" />
-        <Dependent key="11" type="50" schemaName="pfe_insight:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+        <Required key="13" type="61" schemaName="ayw_/icons/appinsights16" displayName="ayw_/icons/appinsights16" solution="Active" />
+        <Dependent key="12" type="50" schemaName="pfe_insight:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
-        <Dependent key="11" type="50" schemaName="pfe_insight:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
+        <Required key="5" type="61" schemaName="ayw_/scripts/applicationinsights/tracktelemetry.js" displayName="ayw_/scripts/applicationinsights/tracktelemetry.js" solution="Active" />
+        <Dependent key="12" type="50" schemaName="pfe_insight:RibbonDiffXml" parentSchemaName="ribboncustomization" parentDisplayName="Application Ribbons" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
